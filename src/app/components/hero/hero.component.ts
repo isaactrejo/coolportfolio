@@ -20,7 +20,7 @@ import { Component } from '@angular/core';
           <h1 class="display-5 fw-bold animated animatedFadeInUp fadeInUp">Isaac Trejo</h1>
           <div class="col-lg-6 mx-auto">
             <!-- <div class="fs-3 mb-4 animated animatedFadeInUp fadeInUp">
-              About Me
+              New about me
             </div> -->
           </div>
         </div>
