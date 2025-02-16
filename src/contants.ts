@@ -1,0 +1,1 @@
+export const FREQUENCY_OPTIONS = ["Word", "word1", "word2"];

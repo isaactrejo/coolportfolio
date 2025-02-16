@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'GeneralSans-Regular';
+    src: url('../../../../fonts/GeneralSans-Regular.otf');
+}
+
+h2 {
+    font-family: 'GeneralSans-Regular', sans-serif;
+}
+
+div {
+    font-family: 'GeneralSans-Regular', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: 'GeneralSans-Regular', sans-serif;
+    font-size: 1.1rem;
+    border: 1px solid #ffffff;
+    padding: 3px 5px;
+    border-radius: 20px;
+    
+}
+
+.navbar-brand:hover{
+    -webkit-text-stroke: .7px #fff;
+    color:transparent;
+    transition-timing-function: ease-out;
+}
+
+.navbar-item {
+    font-family: 'GeneralSans-Regular', sans-serif;
+    
+}
+

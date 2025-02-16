@@ -1,0 +1,4 @@
+**Angular Terminal Commands
+
+# Generate a new component.
+ng g c components/COMPONENT_NAME

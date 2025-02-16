@@ -1,0 +1,82 @@
+body {
+    padding: 40px;
+    
+}
+
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+// ########## this is just for browser compatibility
+// @-webkit-keyframes fadeInUp {
+//     from {
+//         transform: translate3d(0,40px,0)
+//     }
+
+//     to {
+//         transform: translate3d(0,0,0);
+//         opacity: 1
+//     }
+// }
+
+.animated {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    // ########## this is just for browser compatibility
+    // -webkit-animation-duration: 1s;
+    // -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+// .dropdown > .link:focus,
+// .link:hover {
+//     color: black;
+// }
+
+// .dropdown {
+//     position:relative;
+// }
+
+// .dropdown-menu {
+//     position: absolute;
+//     left: 0;
+//     top: calc(100% + .25rem);
+//     background-color: white;
+//     padding: .75rem;
+//     border-radius: .25rem;
+//     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+//     opacity: 0;
+//     pointer-events: none;
+//     transform: translate(-10px);
+//     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+// }
+
+// .dropdown > .link:focus + .dropdown-menu {
+//     opacity: 1;
+//     transform: translateY(0);
+//     pointer-events: auto;
+// }
